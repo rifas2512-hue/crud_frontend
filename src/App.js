@@ -3,7 +3,7 @@ import axios from "axios";
 import "./App.css";
 
 function App() {
-  const API = "https://crud-backend1-xmxc.onrender.com/api/products";
+  const API = "https://crud-backend-1-4f5s.onrender.com/api/products";
 
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(false);
