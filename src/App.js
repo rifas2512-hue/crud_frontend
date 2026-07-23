@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+﻿import { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
@@ -224,7 +224,7 @@ function App() {
             {products.map((product) => (
               <div className="product-item" key={product.id}>
                 <div className="product-name">{product.name}</div>
-                <div className="product-price">?{product.price}</div>
+                <div className="product-price">Rs.{product.price}</div>
                 <div className="product-category">{product.category}</div>
                 <div className="product-actions">
                   <button 
